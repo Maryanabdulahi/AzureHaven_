@@ -1,0 +1,182 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav {
+        position: fixed;
+        width: 100%;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        color: orange;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        gap: 10px;
+        display: flex;
+        list-style: none;
+      }
+
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      nav ul li a:hover {
+        color: orange;
+        border-bottom: 3px solid black;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">AzureHaven</div>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="me.html">about</a></li>
+        <li><a href="help.html">help</a></li>
+        <li><a href="about.html">Rooms</a></li>
+        <li><a href="form.html">regestration</a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p style="color: burlywood; margin-bottom: 90px">
+            Luxury Waterfront Hotel
+          </p>
+          <h1>Where <em>Elegance</em><br />Meets the Sea</h1>
+          <p style="color: white">
+            Experience world-class hospitality with breathtaking ocean views,
+            gourmet dining, and curated experiences designed for the discerning
+            traveller.
+          </p>
+        </div>
+      </section>
+      <section class="about-strip">
+        <div class="container">
+          <div class="about-text">
+            <p
+              style="
+                text-align: center;
+                margin-bottom: 20px;
+                font-size: 20px;
+                border: 1px solid #ccc;
+                padding: 10px 20px;
+                border-radius: 20px;
+                background-color: cadetblue;
+              "
+            >
+              Our Story
+            </p>
+            <h2>A Legacy of Timeless Luxury</h2>
+            <br />
+            <p>
+              Founded in 1998, Azure Haven Hotel has been synonymous with
+              exceptional hospitality for over two decades. Perched along the
+              pristine waterfront, our hotel blends classical elegance with
+              modern sophistication to deliver an unforgettable stay.
+            </p>
+            <p>
+              From hand-stitched linens to Michelin-starred cuisine, every
+              detail at Azure Haven is crafted with care. Our team of over 300
+              dedicated professionals works tirelessly to ensure each guest
+              leaves with a memory they will carry for a lifetime.
+            </p>
+            <div class="stats-row">
+              <div class="stat-item">
+                <h3>26+</h3>
+                <p>Years of Excellence</p>
+              </div>
+              <div class="stat-item">
+                <h3>148</h3>
+                <p>Luxury Rooms &amp; Suites</p>
+              </div>
+              <div class="stat-item">
+                <h3>4.9★</h3>
+                <p>Average Guest Rating</p>
+              </div>
+            </div>
+            <p>Learn More About Us</p>
+          </div>
+          <div class="about-image">
+            <img
+              src="https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=800&q=80"
+              alt="The grand lobby of Azure Haven Hotel with elegant marble floors and chandelier"
+            />
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <!-- Column 1 -->
+        <div class="footer-box">
+          <h2>AzureHaven</h2>
+          <p>
+            A luxury waterfront hotel committed to delivering exceptional
+            experiences since 1998.
+          </p>
+
+          <div class="social">
+            <a href="#">f</a>
+            <a href="#">in</a>
+            <a href="#">tw</a>
+            <a href="#">ig</a>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-box">
+          <h3>QUICK LINKS</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rooms & Gallery</a></li>
+            <li><a href="#">About Azure Haven</a></li>
+            <li><a href="#">Help & FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-box">
+          <h3>OUR SERVICES</h3>
+          <ul>
+            <li>Luxury Rooms</li>
+            <li>Fine Dining</li>
+            <li>Spa & Wellness</li>
+            <li>Events & Weddings</li>
+            <li>Airport Transfers</li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-box">
+          <h3>CONTACT</h3>
+          <p>📍 Mogadishu, Somalia</p>
+          <p>📞 +252 61 2345678</p>
+          <p>✉ info@azurehaven.com</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <p class="copy">© 2026 Azure Haven. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      body {
+        font-family: Arial, sans-serif;
+        background: #f5f5f5;
+      }
+      nav {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        color: orange;
+        font-size: 20px;
+        font-weight: bold;
+      }
+
+      nav ul {
+        display: flex;
+        list-style: none;
+        gap: 15px;
+      }
+
+      nav ul li a {
+        color: black;
+        text-decoration: none;
+        font-size: 20px;
+      }
+
+      nav ul li a:hover {
+        color: orange;
+        border-bottom: 3px solid black;
+      }
+      .container {
+        flex-wrap: wrap;
+        margin-top: 30px;
+        margin-bottom: 40px;
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        margin-top: 50px;
+      }
+
+      .owner-box {
+        width: 350px;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 0 10px gray;
+      }
+
+      .owner-box img {
+        width: 180px;
+        height: 180px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      .owner-box h2 {
+        color: #0b3d5c;
+        margin: 15px 0;
+      }
+
+      .owner-box h4 {
+        color: orange;
+        margin-bottom: 15px;
+      }
+
+      .owner-box p {
+        line-height: 1.6;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="logo">AzureHaven</div>
+      <ul>
+        <li><a href="index.html">home</a></li>
+        <li><a href="me.html">about</a></li>
+        <li><a href="help.html">help</a></li>
+        <li><a href="about.html">Rooms</a></li>
+        <li><a href="form.html">regestration</a></li>
+      </ul>
+    </nav>
+    <main>
+      <div class="container">
+        <div class="owner-box">
+          <img src="owner1.jpeg" alt="Owner 1" />
+          <h2>Maryan Abdulahi Mohamud</h2>
+          <h2>C1250051</h2>
+          <h4>Founder & CEO</h4>
+          <p>
+            Anigu waxaan ahay milkiilaha Hotelka {AzureHaven}. Waa hotel casri
+            ah oo bixiya qolal nadiif ah, adeeg 24/7 ah, Wi-Fi xawaare sare leh
+            iyo cunto tayo leh. Hadafkayagu waa inaan martida siino raaxo,
+            nasasho iyo soo dhoweyn diirran. Ku soo dhawoow AzureHaven.
+          </p>
+        </div>
+
+        <div class="owner-box">
+          <img src="owner2.jpg" alt="Owner 2" />
+          <h2>Ahmed Hassan</h2>
+          <h4>General Manager</h4>
+          <p>
+            Ahmed Hassan manages the daily operations of the hotel and ensures
+            every guest enjoys a memorable stay.
+          </p>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div class="footer-container">
+        <!-- Column 1 -->
+        <div class="footer-box">
+          <h2>AzureHaven</h2>
+          <p>
+            A luxury waterfront hotel committed to delivering exceptional
+            experiences since 1998.
+          </p>
+
+          <div class="social">
+            <a href="#">f</a>
+            <a href="#">in</a>
+            <a href="#">tw</a>
+            <a href="#">ig</a>
+          </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-box">
+          <h3>QUICK LINKS</h3>
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Rooms & Gallery</a></li>
+            <li><a href="#">About Azure Haven</a></li>
+            <li><a href="#">Help & FAQ</a></li>
+          </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-box">
+          <h3>OUR SERVICES</h3>
+          <ul>
+            <li>Luxury Rooms</li>
+            <li>Fine Dining</li>
+            <li>Spa & Wellness</li>
+            <li>Events & Weddings</li>
+            <li>Airport Transfers</li>
+          </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-box">
+          <h3>CONTACT</h3>
+          <p>📍 Mogadishu, Somalia</p>
+          <p>📞 +252 61 2345678</p>
+          <p>✉ info@azurehaven.com</p>
+        </div>
+      </div>
+
+      <hr />
+
+      <p class="copy">© 2026 Azure Haven. All Rights Reserved.</p>
+    </footer>
+  </body>
+</html>

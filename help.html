@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+          *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      nav{
+        position: fixed;
+        width: 100%;
+        padding: 20px 40px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+      }
+      .logo{
+    color: orange;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav ul{
+    display: flex;
+    list-style: none;
+    gap: 25px;
+}
+
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+nav ul li a:hover{
+    color: orange;
+    border-bottom: 3px solid black;
+}
+    table{
+        width:100%;
+        border: 2px solid #222;
+        margin-top: 80px;
+        border-collapse: collapse;
+    }
+    tbody tr:nth-of-type(even){
+        background-color: antiquewhite;
+    }
+    thead{
+        background-color: rgb(128, 128, 195);
+        text-align: center;
+        font-size: 15px;
+    }
+    tbody{
+        text-align: center;
+    }
+    </style>
+</head>
+<body>
+     <nav>
+    <div class="logo">AzureHaven</div>
+    <ul>
+      <li><a href="index.html">home</a></li>
+      <li><a href="me.html">about</a></li>
+      <li><a href="help.html">help</a></li>
+      <li><a href="about.html">Rooms</a></li>
+      <li><a href="form.html">regestration</a></li>
+    </ul>
+   </nav>
+<br>
+  <main>
+    <table border="">
+        <thead>
+            <tr>
+                <th>ROOM TYPE</th>
+                <th>SIZE</th>
+                <th>OCCUPANCY</th>
+                <th>STANDARD RATE</th>
+                <th>WEEKEND RATE</th>
+                <th>PACKAGE</th>
+                <th>STATUS</th>
+            </tr>
+        </thead>
+        <tbody>
+        <tr>
+             <th >Classic Garden Room</th>
+                <td>28m²</td>
+                <td>1–2 Guests</td>
+                <td>$120 / night</td>
+                <td>$145 / night</td>
+                <td>Bed &amp; Breakfast</td>
+                <td> Available</td>
+            </tr>
+        <tr>
+                <th>Deluxe Ocean View</th>
+                <td>38m²</td>
+                <td>1–2 Guests</td>
+                <td>$180 / night</td>
+                <td>$220 / night</td>
+                <td>Breakfast Included</td>
+                <td> Available</td>
+              </tr>
+         <tr>
+                <th>Premium City Suite</th>
+                <td>65m²</td>
+                <td>2–3 Guests</td>
+                <td>$320 / night</td>
+                <td>$390 / night</td>
+                <td>Full Board</td>
+                <td> Available</td>
+              </tr>
+         <tr>
+                <th>Honeymoon Suite</th>
+                <td>80m²</td>
+                <td>2 Guests</td>
+                <td>$420 / night</td>
+                <td>$500 / night</td>
+                <td>Romance Package</td>
+                <td>Limited</td>
+              </tr>
+        <tr>
+                <th>Family Residence</th>
+                <td>110m²</td>
+                <td>2–5 Guests</td>
+                <td>$560 / night</td>
+                <td>$640 / night</td>
+                <td>Family Package</td>
+                <td> Available</td>
+              </tr>
+        </tbody>
+    </table>
+  </main>
+<br><br>
+<footer style="margin-top: 50px;">
+    <div class="footer-container">
+
+        <!-- Column 1 -->
+        <div class="footer-box">
+            <h2>AzureHaven</h2>
+            <p>
+                A luxury waterfront hotel committed to
+                delivering exceptional experiences since 1998.
+            </p>
+
+            <div class="social">
+                <a href="#">f</a>
+                <a href="#">in</a>
+                <a href="#">tw</a>
+                <a href="#">ig</a>
+            </div>
+        </div>
+
+        <!-- Column 2 -->
+        <div class="footer-box">
+            <h3>QUICK LINKS</h3>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Rooms & Gallery</a></li>
+                <li><a href="#">About Azure Haven</a></li>
+                <li><a href="#">Help & FAQ</a></li>
+            </ul>
+        </div>
+
+        <!-- Column 3 -->
+        <div class="footer-box">
+            <h3>OUR SERVICES</h3>
+            <ul>
+                <li>Luxury Rooms</li>
+                <li>Fine Dining</li>
+                <li>Spa & Wellness</li>
+                <li>Events & Weddings</li>
+                <li>Airport Transfers</li>
+            </ul>
+        </div>
+
+        <!-- Column 4 -->
+        <div class="footer-box">
+            <h3>CONTACT</h3>
+            <p>📍 Mogadishu, Somalia</p>
+            <p>📞 +252 61 2345678</p>
+            <p>✉ info@azurehaven.com</p>
+        </div>
+
+    </div>
+
+    <hr>
+
+    <p class="copy">
+        © 2026 Azure Haven. All Rights Reserved.
+    </p>
+</footer>
+</body>
+</html>
